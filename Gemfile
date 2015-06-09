@@ -6,7 +6,8 @@ gem 'puppet', puppetversion, :require => false
 gem 'beaker', :git => 'https://github.com/puppetlabs/beaker.git', :branch => 'master'
 gem 'beaker-rspec', :git => 'https://github.com/puppetlabs/beaker-rspec.git', :branch => 'master'
 gem 'metadata-json-lint', :git => 'https://github.com/nibalizer/metadata-json-lint.git', :branch => 'master'
-gem 'rspec-puppet', :git => 'https://github.com/rodjek/rspec-puppet.git', :branch => 'master'
+# updated from https://github.com/elastic/puppet-elasticsearch/issues/270
+gem 'rspec-puppet', '~> 2.0'
 
 gem 'pry'
 gem 'docker-api', '~> 1.0'
